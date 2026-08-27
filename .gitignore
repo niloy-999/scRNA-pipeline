@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+.streamlit/secrets.toml
+
+# local data dumps
+data/*.h5ad
+*.h5ad
+*.csv
+!requirements.txt
