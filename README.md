@@ -1,5 +1,7 @@
 # scRNA-seq Data Analysis Platform
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22132422.svg)](https://doi.org/10.5281/zenodo.22132422)
+
 Streamlit's interactive application for single-cell RNA-seq analysis: quality control, highly variable gene selection, PCA and variational autoencoder (VAE) embeddings, clustering, benchmarking, and marker-gene export.
 
 It was developed using scikit-learn, PyTorch, and Scanpy. It is designed to support local exploratory analysis of PBMC-scale and other modest `.h5ad` / 10x datasets. It is not a substitute for Scanpy, Seurat, or scvi-tools in atlas-scale or multi-batch investigations.
@@ -156,7 +158,9 @@ These items are the path from a working local app to a version that can be cited
 
 ## Citation
 
-A DOI will be attached to a tagged release (see Releases). Until then, cite the GitHub repository URL and the commit hash or version tag you used.
+If you use this software, please cite:
+
+Tasnim Ul Islam. (2026). scRNA-pipeline: scRNA-seq data analysis platform (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.22132422
 
 ---
 
