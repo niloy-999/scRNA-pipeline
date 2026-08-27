@@ -26,8 +26,8 @@ It was developed using scikit-learn, PyTorch, and Scanpy. It is designed to supp
 Python 3.10+ is recommended. A GPU (CUDA or Apple MPS) is optional.
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/niloy-999/scRNA-pipeline.git
+cd scRNA-pipeline
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
